@@ -1,0 +1,46 @@
+body{
+	background : #E5E5E5;
+	position: relative;
+}
+
+.componentes-centrales{
+	position: relative;
+	width: 700px;
+	margin: 0px auto;
+	height: 800px;
+	
+}
+.texto{
+	color :darkblue;
+	font-size : 32px;
+	font-family: 'Oxygen', sans-serif;
+}
+.botones{
+	margin: 20px 0px;
+	position: absolute;
+	bottom: 0px;
+}
+.botones button{
+	display : inline;
+	padding : 24px;
+	width : 328px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #000077 ;
+	margin : 0px 5px;
+}
+.boton1{
+	background :#0A3871;
+}
+.contenedor{
+	position :absolute;
+	top: 40px;
+	right: 0px;
+	width: 400px;
+	height: 944px;
+}
+.rectangulo{
+	width: 400px;
+	height: 944px;
+	border-radius: 32px;
+}
