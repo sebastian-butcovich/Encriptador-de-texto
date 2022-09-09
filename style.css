@@ -44,3 +44,9 @@ body{
 	height: 944px;
 	border-radius: 32px;
 }
+.muñeco{
+	position: absolute;
+	left: 32px;
+	top: 50%;
+	transform: translateY(-80%);
+}
