@@ -38,15 +38,24 @@ body{
 	right: 0px;
 	width: 400px;
 	height: 944px;
+	display: block;
+	text-align: center;
 }
 .rectangulo{
 	width: 400px;
 	height: 944px;
 	border-radius: 32px;
+	text-align: center;
+	vertical-align: top;
+	display: flex;
+	justify-content: center;
 }
-.muñeco{
+.subcontenedor{
+	width: 400px;
+	height: 944px;
 	position: absolute;
-	left: 32px;
 	top: 50%;
-	transform: translateY(-80%);
+	transform: translateY(-25%);
+	text-align: center;
 }
+
